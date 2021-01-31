@@ -74,8 +74,11 @@ class SnackMachine extends Component {
           console.log("change", Math.round(parseFloat(data.data) * 100));
           alert(
             "Please,Take Your changes " +
-              Math.round(parseFloat(data.data) * 100)
+              Math.round(parseFloat(data.data) * 100) / 100 +
+              "$"
           );
+          window.location.reload();
+          alert("Take Your Snack please , Welecom");
         }
       });
   };
