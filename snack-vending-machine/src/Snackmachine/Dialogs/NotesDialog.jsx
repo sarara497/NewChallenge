@@ -25,7 +25,10 @@ export default function NotesDialog({ getTotal }) {
     // let value = e.target;
     console.log("here", e.target.value);
     await axios
-      .post("http://localhost:4000/Items/checkandmonytotal", e.target.value)
+      .post(
+        "https://snack-vending-machine.herokuapp.com/Items/checkandmonytotal",
+        e.target.value
+      )
       .then((data) => {
         number += data.data;
         console.log("here", data.data);

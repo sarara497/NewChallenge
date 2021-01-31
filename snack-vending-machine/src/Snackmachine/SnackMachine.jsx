@@ -50,7 +50,10 @@ class SnackMachine extends Component {
     console.log(this.state);
     e.preventDefault();
     axios
-      .post("http://localhost:4000/Items/screenItem", this.state)
+      .post(
+        "https://snack-vending-machine.herokuapp.com/Items/screenItem",
+        this.state
+      )
       .then((data) => {
         this.setState({ screeing: data.data });
         console.log("here", data.data);
@@ -61,7 +64,10 @@ class SnackMachine extends Component {
     console.log(this.state);
     e.preventDefault();
     axios
-      .post("http://localhost:4000/Items//buyingsnack", this.state)
+      .post(
+        "https://snack-vending-machine.herokuapp.com/Items//buyingsnack",
+        this.state
+      )
       .then((data) => {
         this.setState({ change: data.data });
         console.log("check", data.data);

@@ -26,7 +26,10 @@ export default function Coins({ getTotal }) {
     let val = e.target.value;
     if (val.includes("c") || val.includes("$")) {
       await axios
-        .post("http://localhost:4000/Items/checkandmonytotal", e.target.value)
+        .post(
+          "https://snack-vending-machine.herokuapp.com/Items/checkandmonytotal",
+          e.target.value
+        )
         .then((data) => {
           number += data.data;
           console.log("here", data.data);
