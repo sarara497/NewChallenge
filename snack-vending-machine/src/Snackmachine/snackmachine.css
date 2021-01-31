@@ -1,0 +1,183 @@
+body {
+  margin: auto;
+  width: 400px;
+}
+
+.Containor {
+  background-color: #c7c1c1;
+  width: 130%;
+  border: groove;
+  border-radius: 12px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: -6px 8px #756f6f;
+}
+
+#vending-machine {
+  width: 392px;
+  margin: 15px auto;
+  padding: 17px 9px;
+  background: #fdfdfd;
+}
+
+ul {
+  width: 275px;
+
+  padding: 3px;
+  text-align: center;
+  display: flex;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  height: 75px;
+}
+
+#snack-collection {
+  width: 400px;
+  margin: 20px auto;
+  padding: 8px 8px;
+  background: #f6f4f4;
+  border: 12px solid;
+  border-radius: 12px;
+  border-color: #034a54;
+}
+
+#snack-purchases {
+  height: 187px;
+  width: 221px;
+  margin: 20px;
+  background: #c7c1c1;
+  padding: inherit;
+}
+#pyment-slot {
+  height: 168px;
+  width: 221px;
+  margin: 20px;
+  background: #c7c1c1;
+  /* padding: inherit; */
+  display: flex;
+  flex-direction: column;
+}
+#num {
+  width: 23%;
+  height: 44px;
+  font-size: xx-large;
+  border-radius: 12px;
+  outline: none;
+  background-color: #0b5a65;
+  color: white;
+  cursor: pointer;
+}
+#ok {
+  width: 33%;
+  height: 43px;
+  font-size: xx-large;
+  border-radius: 12px;
+  outline: none;
+  background-color: #2b2626;
+  color: white;
+  cursor: pointer;
+}
+
+#pay {
+  width: 70%;
+  height: 35px;
+  font-size: large;
+  border-radius: 12px;
+  outline: none;
+  background-color: #0b5a65;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+#message {
+  margin: auto;
+  font-size: 22px;
+  text-align: center;
+  padding-top: -41px;
+  color: #034a54;
+  font-weight: 700;
+}
+#snack-input2 {
+  font-weight: 600;
+  color: #034a54;
+  margin-bottom: auto;
+  margin-top: auto;
+  font-size: 18px;
+  padding: 10px;
+}
+#snack-input {
+  font-size: 48px;
+  /* padding: 10px; */
+  /* text-align: center; */
+  font-weight: 800;
+  color: #034a54;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+#snack-inputnum {
+  font-weight: 600;
+  color: #034a54;
+  margin-bottom: auto;
+  margin-top: auto;
+  font-size: 18px;
+  padding: 10px;
+}
+
+#snack-submit {
+  width: 72%;
+  border-radius: 12px;
+  font-size: 1em;
+  padding: 13px;
+  background-color: #034a54;
+  color: wheat;
+  font-weight: 800;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.MuiButton-outlinedPrimary {
+  color: #0b5a65 !important;
+  border: 2px solid rgb(11 90 101) !important;
+  width: 99px !important;
+  margin-bottom: 20px;
+}
+.MuiButton-label {
+  font-weight: 900 !important;
+}
+.MuiTypography-h6 {
+  font-size: 2.25rem !important;
+  font-weight: 800 !important;
+  color: #0c424a !important;
+}
+.MuiButton-label {
+  color: #0c424a !important;
+}
+.MuiButton-contained {
+  background-color: #9a9393 !important;
+  margin-left: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+#screen {
+  width: 92%;
+  height: 63px;
+  margin-top: 30px;
+  font-size: medium;
+  font-weight: 900;
+  text-align: center;
+  color: #565a5a;
+  background: #aab4b4;
+}
+
+.forButton {
+  text-align: "center";
+  margin-bottom: 9px !important;
+}
+.MuiButton-contained:hover {
+  background-color: #6f8f94 !important;
+}

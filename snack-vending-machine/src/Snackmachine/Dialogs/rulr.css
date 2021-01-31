@@ -1,0 +1,60 @@
+.ruler {
+  position: relative;
+  width: 204%;
+  margin: 20px auto;
+  height: 14px;
+}
+.ruler .cm {
+  position: absolute;
+  height: 14px;
+  width: 7%;
+}
+.ruler .cm:after {
+  position: absolute;
+  bottom: -15px;
+  font: 14px/1 sans-serif;
+  font-weight: 600 !important;
+  color: rgb(5, 58, 51);
+}
+
+.ruler .cm:nth-of-type(1) {
+  left: 0%;
+}
+.ruler .cm:nth-of-type(1):after {
+  content: "1";
+}
+.ruler .cm:nth-of-type(2) {
+  left: 10%;
+}
+.ruler .cm:nth-of-type(2):after {
+  content: "2";
+}
+.ruler .cm:nth-of-type(3) {
+  left: 20%;
+}
+.ruler .cm:nth-of-type(3):after {
+  content: "3";
+}
+.ruler .cm:nth-of-type(4) {
+  left: 30%;
+}
+.ruler .cm:nth-of-type(4):after {
+  content: "4";
+}
+.ruler .cm:nth-of-type(5) {
+  left: 40%;
+}
+.ruler .cm:nth-of-type(5):after {
+  content: "5";
+}
+.ruler .cm:nth-of-type(6) {
+  left: 50%;
+}
+.ruler .cm:nth-of-type(6):after {
+  content: "5";
+}
+
+#mentionme {
+  text-align: center;
+  margin-top: 10%;
+}
