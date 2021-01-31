@@ -20,6 +20,10 @@
 - [Node.js](https://nodejs.org/) - for backend
 - [Express](https://expressjs.com/)
 
+## Heroku Deployment
+
+- [Heroku](https://snack-vending-machine.herokuapp.com/)
+
 ## Installing Dependencies
 
 1. Backend
