@@ -2,9 +2,8 @@
 
 ## Main User Stories:
 
--User selects a number by pressing on the keypad.
--The VM displays a message that the snack is available for the selected number and displays its price.
-
+- User selects a number by pressing on the keypad.
+- The VM displays a message that the snack is available for the selected number and displays its price.
 - The User inserts the money.
 - The VM validates the money, accepts the money, displays the accumulated amount of money,monitors the amount of the accepted money, If the money is enough,dispenses the selected snack to the user,determines if any change should be sent back to user.
 
